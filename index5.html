@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- =================== Topic 5 Math expressions: Familiar operators ================== -->
+
+    <!---- add +,sub -,multipl *,  divide /-->
+
+    <script>
+
+///////////////////////////////////////==== QUESTION 01  ====//////////////////////////////////////////////////
+          var num1 = 3 ;
+          var num2 = 5 ;
+          sum = num1+num2;
+          console.log(sum);
+ //====================================
+///////////////////////////////////////==== QUESTION 02  ====//////////////////////////////////////////////////
+
+          var num1 = 3 ;
+          var num2 = 5 ;
+          sum = num1-num2;
+          console.log(sum);
+
+//===================================
+          var num1 = 3 ;
+          var num2 = 5 ;
+          sum = num1*num2;
+          console.log(sum);
+//===================================
+          var num1 = 3 ;
+          var num2 = 5 ;
+          sum = num1/num2;
+          console.log(sum);
+//======================================================
+
+///////////////////////////////////////==== QUESTION 03  ====//////////////////////////////////////////////////
+
+      // a. Declare a variable
+      var myVariable;
+      // b. Show the value of the variable after declaration
+      document.write("Value after variable declaration is: ??");
+      // c. Initialize the variable with some number
+       var myVariable = 5;
+      // d. Show the initial value of the variable
+      document.write("5").textContent = "5: " + myVariable;
+      // e. Increment the variable
+      myVariable++;
+      // f. Show the value of the variable after increment
+      document.write("after-increment").textContent = "Value after increment is: " + myVariable;
+      // g. Add 7 to the variable
+      myVariable += 7;
+      // h. Show the value of the variable after addition
+      document.write("after-addition").textContent = "Value after addition is: " + myVariable;
+      // i. Decrement the variable
+      myVariable--;
+      // j. Show the value of the variable after decrement
+      document.write("after-decrement").textContent = "Value after decrement is: " + myVariable;
+      // k. Show the remainder after dividing the variable’s value by 3
+      var remainder = myVariable % 3;
+      // l. Output the remainder
+      document.write("remainder").textContent = "The remainder is: " + remainder;
+
+     //==============================================================================
+
+     ///////////////////////////////////////==== QUESTION 04  ====//////////////////////////////////////////////////
+
+        
+       var ticketPrice = 600;
+      var numberOfTickets = 5;
+      var totalCost =  600 * 5 ;
+      console.log(totalCost);
+
+   //===================================================================================
+///////////////////////////////////////==== QUESTION 05  ====//////////////////////////////////////////////////
+var i = 1;
+while (i <= 10) {
+    console.log(4, "x", i, "=", i * 4);
+    i++;
+}
+
+  //=======================================================================================
+///////////////////////////////////////=====  QUESTION 06  =====//////////////////////////////////////////////
+
+
+var celsiusTemp = 30; 
+var fahrenheitTemp = (celsiusTemp * 9/5) + 32;
+console.log(`${celsiusTemp}°C is ${fahrenheitTemp}°F`);
+fahrenheitTemp = 86; 
+celsiusTemp = (fahrenheitTemp - 32) * 5/9;
+console.log(`${fahrenheitTemp}°F is ${celsiusTemp.toFixed(2)}°C`);
+
+
+//=======================================================
+
+///////////////////////////////////////==== QUESTION 07  ====/////////////////////////////////////////////
+
+var priceOfItem1 = 650;
+var priceOfItem2 = 100;
+var quantityOfItem1 = 3;
+var quantityOfItem2 = 7;
+var shippingcharges = 100
+var add = priceOfItem1 + priceOfItem2 + quantityOfItem1 + quantityOfItem2 + shippingcharges;
+console.log(add);
+
+//=========================================================
+
+///////////////////////////////////////==== QUESTION 08  ====/////////////////////////////////////////////
+
+var totalMarks=980;
+var marksObtained=804;
+var add =totalMarks & marksObtained;
+console.log(add);
+
+//==========================================================
+
+///////////////////////////////////==== QUESTION 09 ====//////////////////////////////////////////////////
+
+   
+var amountInUSD = 10;
+var amountInSAR = 25;
+var exchangeRateUSDToPKR = 104.80;
+var exchangeRateSARToPKR = 28.00;
+var totalInPKR = (amountInUSD * exchangeRateUSDToPKR) + (amountInSAR * exchangeRateSARToPKR);
+console.log(`The total amount in Pakistani Rupees is ${totalInPKR.toFixed(2)} PKR.`);
+
+
+//==========================================================
+
+///////////////////////////////////==== QUESTION 10 ====//////////////////////////////////////////////////
+
+
+var initialNumber = 8; 
+var result = ((initialNumber + 5) * 10) / 2;
+console.log(`The result of the arithmetic operations is ${result}.`);
+
+
+//==========================================================
+
+///////////////////////////////////==== QUESTION 11 ====//////////////////////////////////////////////////
+
+var currentYear = 2024; 
+var birthYear = 2003; 
+var age1 = currentYear - birthYear;
+var age2 = age1 - 15;
+console.log(`They are either ${age1} or ${age2} years old.`);
+
+//==========================================================
+
+///////////////////////////////////==== QUESTION 12 ====//////////////////////////////////////////////////
+var radius1 = 20;
+        console.log(radius1);
+        var pi = 3.142;
+        var circumference = 2 * pi * radius1 ;
+        console.log(circumference);
+        var area = pi * radius1 * radius1;
+        console.log(area);
+
+//===========================================================
+
+///////////////////////////////////==== QUESTION 13 ====///////////////////////////////////////////////// 
+
+var favoriteSnack = "chocolate";
+var currentAge = 25;
+var maxAge = 85;
+var amountPerDay = 2;
+var yearsLeft = maxAge - currentAge;
+var daysLeft = yearsLeft * 365.25; 
+var totalAmount = daysLeft * amountPerDay;
+console.log(`You will need ${totalAmount} ${favoriteSnack}(s) to last you until the ripe old age of ${maxAge}.`);
+
+
+    </script>
+   
+  </body>
+</html>
